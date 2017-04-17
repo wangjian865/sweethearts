@@ -1,0 +1,747 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54E67E43EDC52066234D7B11 /* libPods-OhMyLoveTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F5E3AD45E5B2CF7D080504 /* libPods-OhMyLoveTests.a */; };
+		94FD63AD1EA49A7100B5FE3C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94FD63AC1EA49A7100B5FE3C /* main.m */; };
+		94FD63B01EA49A7100B5FE3C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94FD63AF1EA49A7100B5FE3C /* AppDelegate.m */; };
+		94FD63B31EA49A7100B5FE3C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94FD63B21EA49A7100B5FE3C /* ViewController.m */; };
+		94FD63B61EA49A7100B5FE3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94FD63B41EA49A7100B5FE3C /* Main.storyboard */; };
+		94FD63B91EA49A7100B5FE3C /* OhMyLove.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 94FD63B71EA49A7100B5FE3C /* OhMyLove.xcdatamodeld */; };
+		94FD63BB1EA49A7100B5FE3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94FD63BA1EA49A7100B5FE3C /* Assets.xcassets */; };
+		94FD63BE1EA49A7100B5FE3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94FD63BC1EA49A7100B5FE3C /* LaunchScreen.storyboard */; };
+		94FD63C91EA49A7100B5FE3C /* OhMyLoveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94FD63C81EA49A7100B5FE3C /* OhMyLoveTests.m */; };
+		94FD63D41EA49A7100B5FE3C /* OhMyLoveUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94FD63D31EA49A7100B5FE3C /* OhMyLoveUITests.m */; };
+		DAF50CFBB1A85374737E02CE /* libPods-OhMyLoveUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 96EDCEE9F139B93CD5DC069D /* libPods-OhMyLoveUITests.a */; };
+		E6E53DACBC4D06450A091B65 /* libPods-OhMyLove.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D30CC7131DBFA1D29512E4E9 /* libPods-OhMyLove.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94FD63C51EA49A7100B5FE3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94FD63A01EA49A7100B5FE3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94FD63A71EA49A7100B5FE3C;
+			remoteInfo = OhMyLove;
+		};
+		94FD63D01EA49A7100B5FE3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94FD63A01EA49A7100B5FE3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94FD63A71EA49A7100B5FE3C;
+			remoteInfo = OhMyLove;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		011D3C0ADFC357C8955DC31F /* Pods-OhMyLove.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OhMyLove.release.xcconfig"; path = "Pods/Target Support Files/Pods-OhMyLove/Pods-OhMyLove.release.xcconfig"; sourceTree = "<group>"; };
+		3DF539787BC777BFFEB404C2 /* Pods-OhMyLoveTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OhMyLoveTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OhMyLoveTests/Pods-OhMyLoveTests.debug.xcconfig"; sourceTree = "<group>"; };
+		48499848ACDDD1E0A01780A6 /* Pods-OhMyLoveUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OhMyLoveUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OhMyLoveUITests/Pods-OhMyLoveUITests.release.xcconfig"; sourceTree = "<group>"; };
+		84F5E3AD45E5B2CF7D080504 /* libPods-OhMyLoveTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OhMyLoveTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94FD63A81EA49A7100B5FE3C /* OhMyLove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OhMyLove.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94FD63AC1EA49A7100B5FE3C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		94FD63AE1EA49A7100B5FE3C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		94FD63AF1EA49A7100B5FE3C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		94FD63B11EA49A7100B5FE3C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		94FD63B21EA49A7100B5FE3C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		94FD63B51EA49A7100B5FE3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		94FD63B81EA49A7100B5FE3C /* OhMyLove.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OhMyLove.xcdatamodel; sourceTree = "<group>"; };
+		94FD63BA1EA49A7100B5FE3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		94FD63BD1EA49A7100B5FE3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		94FD63BF1EA49A7100B5FE3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94FD63C41EA49A7100B5FE3C /* OhMyLoveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OhMyLoveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94FD63C81EA49A7100B5FE3C /* OhMyLoveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OhMyLoveTests.m; sourceTree = "<group>"; };
+		94FD63CA1EA49A7100B5FE3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94FD63CF1EA49A7100B5FE3C /* OhMyLoveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OhMyLoveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94FD63D31EA49A7100B5FE3C /* OhMyLoveUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OhMyLoveUITests.m; sourceTree = "<group>"; };
+		94FD63D51EA49A7100B5FE3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96EDCEE9F139B93CD5DC069D /* libPods-OhMyLoveUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OhMyLoveUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5688D692A4F199539C20180 /* Pods-OhMyLove.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OhMyLove.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OhMyLove/Pods-OhMyLove.debug.xcconfig"; sourceTree = "<group>"; };
+		D30CC7131DBFA1D29512E4E9 /* libPods-OhMyLove.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OhMyLove.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC7CD8CCF62B6EF059604606 /* Pods-OhMyLoveTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OhMyLoveTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OhMyLoveTests/Pods-OhMyLoveTests.release.xcconfig"; sourceTree = "<group>"; };
+		DF006B5AF6B314C2DB541E35 /* Pods-OhMyLoveUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OhMyLoveUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OhMyLoveUITests/Pods-OhMyLoveUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94FD63A51EA49A7100B5FE3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6E53DACBC4D06450A091B65 /* libPods-OhMyLove.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94FD63C11EA49A7100B5FE3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54E67E43EDC52066234D7B11 /* libPods-OhMyLoveTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94FD63CC1EA49A7100B5FE3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAF50CFBB1A85374737E02CE /* libPods-OhMyLoveUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94FD639F1EA49A7100B5FE3C = {
+			isa = PBXGroup;
+			children = (
+				94FD63AA1EA49A7100B5FE3C /* OhMyLove */,
+				94FD63C71EA49A7100B5FE3C /* OhMyLoveTests */,
+				94FD63D21EA49A7100B5FE3C /* OhMyLoveUITests */,
+				94FD63A91EA49A7100B5FE3C /* Products */,
+				E88F3109FB8F1B53C46B72D9 /* Pods */,
+				CA89E15DDD9BD3AFABB8A1D7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		94FD63A91EA49A7100B5FE3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94FD63A81EA49A7100B5FE3C /* OhMyLove.app */,
+				94FD63C41EA49A7100B5FE3C /* OhMyLoveTests.xctest */,
+				94FD63CF1EA49A7100B5FE3C /* OhMyLoveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94FD63AA1EA49A7100B5FE3C /* OhMyLove */ = {
+			isa = PBXGroup;
+			children = (
+				94FD63AE1EA49A7100B5FE3C /* AppDelegate.h */,
+				94FD63AF1EA49A7100B5FE3C /* AppDelegate.m */,
+				94FD63B11EA49A7100B5FE3C /* ViewController.h */,
+				94FD63B21EA49A7100B5FE3C /* ViewController.m */,
+				94FD63B41EA49A7100B5FE3C /* Main.storyboard */,
+				94FD63BA1EA49A7100B5FE3C /* Assets.xcassets */,
+				94FD63BC1EA49A7100B5FE3C /* LaunchScreen.storyboard */,
+				94FD63BF1EA49A7100B5FE3C /* Info.plist */,
+				94FD63B71EA49A7100B5FE3C /* OhMyLove.xcdatamodeld */,
+				94FD63AB1EA49A7100B5FE3C /* Supporting Files */,
+			);
+			path = OhMyLove;
+			sourceTree = "<group>";
+		};
+		94FD63AB1EA49A7100B5FE3C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94FD63AC1EA49A7100B5FE3C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		94FD63C71EA49A7100B5FE3C /* OhMyLoveTests */ = {
+			isa = PBXGroup;
+			children = (
+				94FD63C81EA49A7100B5FE3C /* OhMyLoveTests.m */,
+				94FD63CA1EA49A7100B5FE3C /* Info.plist */,
+			);
+			path = OhMyLoveTests;
+			sourceTree = "<group>";
+		};
+		94FD63D21EA49A7100B5FE3C /* OhMyLoveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				94FD63D31EA49A7100B5FE3C /* OhMyLoveUITests.m */,
+				94FD63D51EA49A7100B5FE3C /* Info.plist */,
+			);
+			path = OhMyLoveUITests;
+			sourceTree = "<group>";
+		};
+		CA89E15DDD9BD3AFABB8A1D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D30CC7131DBFA1D29512E4E9 /* libPods-OhMyLove.a */,
+				84F5E3AD45E5B2CF7D080504 /* libPods-OhMyLoveTests.a */,
+				96EDCEE9F139B93CD5DC069D /* libPods-OhMyLoveUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E88F3109FB8F1B53C46B72D9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A5688D692A4F199539C20180 /* Pods-OhMyLove.debug.xcconfig */,
+				011D3C0ADFC357C8955DC31F /* Pods-OhMyLove.release.xcconfig */,
+				3DF539787BC777BFFEB404C2 /* Pods-OhMyLoveTests.debug.xcconfig */,
+				DC7CD8CCF62B6EF059604606 /* Pods-OhMyLoveTests.release.xcconfig */,
+				DF006B5AF6B314C2DB541E35 /* Pods-OhMyLoveUITests.debug.xcconfig */,
+				48499848ACDDD1E0A01780A6 /* Pods-OhMyLoveUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94FD63A71EA49A7100B5FE3C /* OhMyLove */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94FD63D81EA49A7100B5FE3C /* Build configuration list for PBXNativeTarget "OhMyLove" */;
+			buildPhases = (
+				072D01BA0B52ABAE429E6803 /* [CP] Check Pods Manifest.lock */,
+				94FD63A41EA49A7100B5FE3C /* Sources */,
+				94FD63A51EA49A7100B5FE3C /* Frameworks */,
+				94FD63A61EA49A7100B5FE3C /* Resources */,
+				CE35F1C56CF9B2F5385EE41F /* [CP] Embed Pods Frameworks */,
+				4EEBFD761ED4F0895B936498 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OhMyLove;
+			productName = OhMyLove;
+			productReference = 94FD63A81EA49A7100B5FE3C /* OhMyLove.app */;
+			productType = "com.apple.product-type.application";
+		};
+		94FD63C31EA49A7100B5FE3C /* OhMyLoveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94FD63DB1EA49A7100B5FE3C /* Build configuration list for PBXNativeTarget "OhMyLoveTests" */;
+			buildPhases = (
+				9EF72D31F8C71857F2E64CAC /* [CP] Check Pods Manifest.lock */,
+				94FD63C01EA49A7100B5FE3C /* Sources */,
+				94FD63C11EA49A7100B5FE3C /* Frameworks */,
+				94FD63C21EA49A7100B5FE3C /* Resources */,
+				9DAB9D2C8218888C57A55981 /* [CP] Embed Pods Frameworks */,
+				956AE7193A2663D04479AEAB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94FD63C61EA49A7100B5FE3C /* PBXTargetDependency */,
+			);
+			name = OhMyLoveTests;
+			productName = OhMyLoveTests;
+			productReference = 94FD63C41EA49A7100B5FE3C /* OhMyLoveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		94FD63CE1EA49A7100B5FE3C /* OhMyLoveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94FD63DE1EA49A7100B5FE3C /* Build configuration list for PBXNativeTarget "OhMyLoveUITests" */;
+			buildPhases = (
+				D30C9D30A8ED925F066A23E9 /* [CP] Check Pods Manifest.lock */,
+				94FD63CB1EA49A7100B5FE3C /* Sources */,
+				94FD63CC1EA49A7100B5FE3C /* Frameworks */,
+				94FD63CD1EA49A7100B5FE3C /* Resources */,
+				4375DC587D7EEED9A725428A /* [CP] Embed Pods Frameworks */,
+				2DDD710CB53F206B3EE07A9F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94FD63D11EA49A7100B5FE3C /* PBXTargetDependency */,
+			);
+			name = OhMyLoveUITests;
+			productName = OhMyLoveUITests;
+			productReference = 94FD63CF1EA49A7100B5FE3C /* OhMyLoveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94FD63A01EA49A7100B5FE3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = aspire;
+				TargetAttributes = {
+					94FD63A71EA49A7100B5FE3C = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = GJPPNRS562;
+						ProvisioningStyle = Automatic;
+					};
+					94FD63C31EA49A7100B5FE3C = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = GJPPNRS562;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 94FD63A71EA49A7100B5FE3C;
+					};
+					94FD63CE1EA49A7100B5FE3C = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = GJPPNRS562;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 94FD63A71EA49A7100B5FE3C;
+					};
+				};
+			};
+			buildConfigurationList = 94FD63A31EA49A7100B5FE3C /* Build configuration list for PBXProject "OhMyLove" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94FD639F1EA49A7100B5FE3C;
+			productRefGroup = 94FD63A91EA49A7100B5FE3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94FD63A71EA49A7100B5FE3C /* OhMyLove */,
+				94FD63C31EA49A7100B5FE3C /* OhMyLoveTests */,
+				94FD63CE1EA49A7100B5FE3C /* OhMyLoveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94FD63A61EA49A7100B5FE3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94FD63BE1EA49A7100B5FE3C /* LaunchScreen.storyboard in Resources */,
+				94FD63BB1EA49A7100B5FE3C /* Assets.xcassets in Resources */,
+				94FD63B61EA49A7100B5FE3C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94FD63C21EA49A7100B5FE3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94FD63CD1EA49A7100B5FE3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		072D01BA0B52ABAE429E6803 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2DDD710CB53F206B3EE07A9F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OhMyLoveUITests/Pods-OhMyLoveUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4375DC587D7EEED9A725428A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OhMyLoveUITests/Pods-OhMyLoveUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4EEBFD761ED4F0895B936498 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OhMyLove/Pods-OhMyLove-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		956AE7193A2663D04479AEAB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OhMyLoveTests/Pods-OhMyLoveTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DAB9D2C8218888C57A55981 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OhMyLoveTests/Pods-OhMyLoveTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9EF72D31F8C71857F2E64CAC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CE35F1C56CF9B2F5385EE41F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OhMyLove/Pods-OhMyLove-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D30C9D30A8ED925F066A23E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94FD63A41EA49A7100B5FE3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94FD63B91EA49A7100B5FE3C /* OhMyLove.xcdatamodeld in Sources */,
+				94FD63B31EA49A7100B5FE3C /* ViewController.m in Sources */,
+				94FD63B01EA49A7100B5FE3C /* AppDelegate.m in Sources */,
+				94FD63AD1EA49A7100B5FE3C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94FD63C01EA49A7100B5FE3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94FD63C91EA49A7100B5FE3C /* OhMyLoveTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94FD63CB1EA49A7100B5FE3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94FD63D41EA49A7100B5FE3C /* OhMyLoveUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		94FD63C61EA49A7100B5FE3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94FD63A71EA49A7100B5FE3C /* OhMyLove */;
+			targetProxy = 94FD63C51EA49A7100B5FE3C /* PBXContainerItemProxy */;
+		};
+		94FD63D11EA49A7100B5FE3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94FD63A71EA49A7100B5FE3C /* OhMyLove */;
+			targetProxy = 94FD63D01EA49A7100B5FE3C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		94FD63B41EA49A7100B5FE3C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94FD63B51EA49A7100B5FE3C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		94FD63BC1EA49A7100B5FE3C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94FD63BD1EA49A7100B5FE3C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94FD63D61EA49A7100B5FE3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		94FD63D71EA49A7100B5FE3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94FD63D91EA49A7100B5FE3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5688D692A4F199539C20180 /* Pods-OhMyLove.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GJPPNRS562;
+				INFOPLIST_FILE = OhMyLove/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WJGWJ.OhMyLove;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		94FD63DA1EA49A7100B5FE3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 011D3C0ADFC357C8955DC31F /* Pods-OhMyLove.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GJPPNRS562;
+				INFOPLIST_FILE = OhMyLove/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WJGWJ.OhMyLove;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		94FD63DC1EA49A7100B5FE3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DF539787BC777BFFEB404C2 /* Pods-OhMyLoveTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = GJPPNRS562;
+				INFOPLIST_FILE = OhMyLoveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WJGWJ.OhMyLoveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OhMyLove.app/OhMyLove";
+			};
+			name = Debug;
+		};
+		94FD63DD1EA49A7100B5FE3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC7CD8CCF62B6EF059604606 /* Pods-OhMyLoveTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = GJPPNRS562;
+				INFOPLIST_FILE = OhMyLoveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WJGWJ.OhMyLoveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OhMyLove.app/OhMyLove";
+			};
+			name = Release;
+		};
+		94FD63DF1EA49A7100B5FE3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF006B5AF6B314C2DB541E35 /* Pods-OhMyLoveUITests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = GJPPNRS562;
+				INFOPLIST_FILE = OhMyLoveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WJGWJ.OhMyLoveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OhMyLove;
+			};
+			name = Debug;
+		};
+		94FD63E01EA49A7100B5FE3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48499848ACDDD1E0A01780A6 /* Pods-OhMyLoveUITests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = GJPPNRS562;
+				INFOPLIST_FILE = OhMyLoveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WJGWJ.OhMyLoveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OhMyLove;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94FD63A31EA49A7100B5FE3C /* Build configuration list for PBXProject "OhMyLove" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94FD63D61EA49A7100B5FE3C /* Debug */,
+				94FD63D71EA49A7100B5FE3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94FD63D81EA49A7100B5FE3C /* Build configuration list for PBXNativeTarget "OhMyLove" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94FD63D91EA49A7100B5FE3C /* Debug */,
+				94FD63DA1EA49A7100B5FE3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		94FD63DB1EA49A7100B5FE3C /* Build configuration list for PBXNativeTarget "OhMyLoveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94FD63DC1EA49A7100B5FE3C /* Debug */,
+				94FD63DD1EA49A7100B5FE3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		94FD63DE1EA49A7100B5FE3C /* Build configuration list for PBXNativeTarget "OhMyLoveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94FD63DF1EA49A7100B5FE3C /* Debug */,
+				94FD63E01EA49A7100B5FE3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		94FD63B71EA49A7100B5FE3C /* OhMyLove.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				94FD63B81EA49A7100B5FE3C /* OhMyLove.xcdatamodel */,
+			);
+			currentVersion = 94FD63B81EA49A7100B5FE3C /* OhMyLove.xcdatamodel */;
+			path = OhMyLove.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 94FD63A01EA49A7100B5FE3C /* Project object */;
+}
